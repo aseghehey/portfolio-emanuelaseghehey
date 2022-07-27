@@ -24,7 +24,7 @@ const Contact = () => {
               <MdOutlineEmail className='contact__option-icon'/>
               <h4>Email</h4>
               <h5>emanuelaseghey9@gmail.com</h5>
-              <a href="mailto:emanuelaseghey9@gmail.com" target="__blank">Send a message</a>
+              <a href="mailto:emanuelaseghey9@gmail.com" target="__blank" rel="noreferrer">Send a message</a>
           </article>
         </div>
         {/* <form ref={form} onSubmit={sendEmail}>

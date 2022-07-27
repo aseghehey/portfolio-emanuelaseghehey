@@ -42,13 +42,13 @@ const Portfolio = () => {
               return (
               <article className='portfolio__item'>
               <div className="portfolio__item-image">
-                <img src={image}/>
+                <img src={image} alt={id}/>
               </div>
               <h3>{title}</h3>
               <small>{description}</small>
               <div className="portfolio__item-cta">
-                <a href={github} className='btn' target='__blank'>Github</a>
-                <a href={secondlink} className='btn btn-primary' target='__blank'>Demo/Support</a>
+                <a href={github} className='btn' target='__blank' rel="noreferrer">Github</a>
+                <a href={secondlink} className='btn btn-primary' target='__blank' rel="noreferrer">Demo/Support</a>
               </div>
             </article> 
               )
