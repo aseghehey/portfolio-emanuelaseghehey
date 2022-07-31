@@ -18,7 +18,7 @@ const data = [
     image: ratio,
     title: "@_ratiobot",
     description: "Detect ratios on Twitter!",
-    github: "https://github.com/easeghehey/Twitter-ratio-bot",
+    github: "https://github.com/easeghehey/Ratio-bot",
     secondlink: "https://twitter.com/_ratiobot"
   },
   {
