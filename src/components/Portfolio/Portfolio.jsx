@@ -11,7 +11,7 @@ const data = [
     title: "Optic-mization",
     description: "Find out what glasses suit your face!" ,
     github: "https://github.com/easeghehey/Optic-mization",
-    secondlink: "https://www.buymeacoffee.com/emanuelase"
+    secondlink: "https://youtu.be/MjHsw9pCn9g"
   },
   {
     id:2,
@@ -27,7 +27,7 @@ const data = [
     title: "Investment Banking Model",
     description:"Buy and Sell Stocks!",
     github: "https://github.com/easeghehey/Firm-DBMS",
-    secondlink: "https://www.buymeacoffee.com/emanuelase"
+    secondlink: "https://youtu.be/Iv-OiookzWI"
   }
 ]
 
@@ -48,7 +48,7 @@ const Portfolio = () => {
               <small>{description}</small>
               <div className="portfolio__item-cta">
                 <a href={github} className='btn' target='__blank' rel="noreferrer">Github</a>
-                <a href={secondlink} className='btn btn-primary' target='__blank' rel="noreferrer">Demo/Support</a>
+                <a href={secondlink} className='btn btn-primary' target='__blank' rel="noreferrer">Demo</a>
               </div>
             </article> 
               )
