@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import pic2 from '../../assets/IMG_4533.jpg'
+import pic2 from '../../assets/emanuel10_complete.jpg'
 import {BsCodeSquare} from 'react-icons/bs'
 import {TbSchool} from 'react-icons/tb'
 import {GoPerson} from 'react-icons/go'
